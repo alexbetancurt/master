@@ -6564,6 +6564,10 @@ input[type="text"]:focus {
 .sidebar-container {
   width: 220px;
   background: #303d45;
+  float: left;
+}
+.sidebar-container figure {
+  height: 80px;
 }
 .sidebar-container figure img {
   margin: 25px;
@@ -6586,4 +6590,18 @@ ul.vertical-navigation li {
 }
 ul.vertical-navigation li a i {
   margin-right: 10px;
+}
+.top-header {
+  background: #ffffff;
+  height: 80px;
+  border-bottom: 2px solid #ccc;
+}
+.top-header .navbar-nav > li > a {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #606060;
+}
+.navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus {
+  color: #1ed1af;
 }
